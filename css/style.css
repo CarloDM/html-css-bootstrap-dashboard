@@ -25,6 +25,10 @@ header{
   height: 60px;
 }
 
+.navbar-expand .navbar-nav .dropdown-menu.dropdown_edit{
+  left: -60%; !important
+}
+
 /* -- ------------left bar----------- -- */
 #left-bar{
   width: 60px;
