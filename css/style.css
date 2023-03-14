@@ -19,14 +19,12 @@ body{
 header{
   width: calc(100vw - (100vw -100%));
   height: 60px;
-
 }
 
 /* -- ------------left bar----------- -- */
 #left-bar{
   width: 60px;
   height: calc(100vh - 60px);
-  display: inline-block;
 }
 @media screen and (min-width:992px) {
   #left-bar{
@@ -36,10 +34,8 @@ header{
 
 /* -- ------------main-view----------- -- */
 #main-view{
-  display: inline-block;
   width: calc(100vw - 60px - (100vw - 100%));
   height: calc(100vh - 60px);
-  display: inline-block;
   overflow-y: auto;
 }
 @media screen and (min-width:992px) {
