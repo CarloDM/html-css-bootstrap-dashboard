@@ -15,6 +15,10 @@ body{
   overflow: hidden;
 }
 
+.W_70{
+  width: 70%;
+}
+
 /* -- ------------header----------- -- */
 header{
   width: calc(100vw - (100vw -100%));

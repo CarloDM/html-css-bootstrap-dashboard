@@ -18,23 +18,26 @@
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>
-          <form class="d-flex w-75" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+          <nav class="navbar W_70 bg-body-tertiary">
+            <form class="container-fluid">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+            </form>
+          </nav>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">ic</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">ic</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">ic</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -55,7 +58,22 @@
 
     <main class="d-flex">
 <!-- ------------left bar----------- -->
-        <nav id="left-bar" class="debug1"></nav>
+        <nav id="left-bar" class="debug1">
+
+          <div class="container-fluid h-100 d-flex flex-column justify-content-between debug1">
+
+            <div class="d-flex flex-column mt-3 debug1">
+              <a href="#"> ic <span class="d-none d-lg-inline">home</span></a>
+              <a href="#"> ic <span class="d-none d-lg-inline">stats</span></a>
+              <a href="#"> ic <span class="d-none d-lg-inline">signals</span></a>             
+            </div>
+            
+            <div class="d-flex flex-column mb-3 debug1">
+              <a href="#"> ic <span class="d-none d-lg-inline">admin</span></a>         
+            </div>
+
+          </div>
+        </nav>
 <!-- ------------main-view----------- -->
         <div id="main-view" class="debug2">
         </div>
