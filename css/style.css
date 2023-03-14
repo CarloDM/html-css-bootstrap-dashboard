@@ -1,0 +1,11 @@
+/* utility */
+
+.debug1 {
+  background-color: rgba(255, 0, 0, 0.24);
+  border: 1px solid black;
+}
+
+.debug2 {
+  background-color: rgba(0, 255, 42, 0.24);
+  border: 1px solid black;
+}
