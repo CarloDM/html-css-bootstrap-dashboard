@@ -19,6 +19,10 @@ body{
   width: 70%;
 }
 
+.f_s {
+  font-size: 0.9rem;
+}
+
 /* -- ------------header----------- -- */
 header{
   width: calc(100vw - (100vw -100%));
@@ -56,7 +60,18 @@ header{
 
 #main-header{
   color: white;
-  height: 100px;
+  /* height: 100px; */
+}
+
+#main-header .first_col span:not(.ic) {
+  background-color: rgba(0, 0, 0, 0.473);
+  border-radius: 20px;
+  padding: 3px 6px;
+  font-size: 0.7rem;
+}
+
+.plus {
+  height: 39px;
 }
 
 /* -- ------------main-content----------- -- */
