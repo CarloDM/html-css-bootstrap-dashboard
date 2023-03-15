@@ -82,14 +82,14 @@
 
     <!-- ------------main-view----------- -->
 
-        <div id="main-view" class="debug2">
+        <div id="main-view" class="bg-body-tertiary">
 
                 <!-- ------main-header----- -->
 
           <div id="main-header" class="container-fluid p-0 bg-primary">
             <div class="container-fluid h-100  d-flex flex-wrap">
 
-              <div class="col-12 col-md-4 col-lg-6 first_col pt-2 ">
+              <div class="col-12 col-md-4 col-lg-6 first_col py-2 ">
                 <h2 class="d-inline-block">Bolean</h2>
                 <span>Piano blaze</span> <br>
                 <span class="">3 app</span>
@@ -100,11 +100,11 @@
                 <span class="d-inline-block d-lg-none">+</span>
 
               </div>
-              <div class="col-12 col-md-5 col-lg-4 pt-2 ">
+              <div class="col-12 col-md-5 col-lg-4 py-2 ">
                 <span class="f_s">Studenti online negli ultimi 30 minuti</span> <br>
                 <span class="fs-3 d-block mt-2">125</span>
               </div>
-              <div class="col-12 order-first col-md-3 order-md-last col-lg-2 pt-2 d-flex flex-nowrap justify-content-lg-end ">
+              <div class="col-12 order-first col-md-3 order-md-last col-lg-2 py-2 d-flex flex-nowrap justify-content-lg-end ">
                 <span class="f_s">nuovo studente</span>
                 <span class="d-inline-block fs-5 border px-2 rounded-2 ms-2 plus">+</span>
               </div>
@@ -113,43 +113,52 @@
 
                 <!-- ------main-content----- -->
 
-          <div id="main-content" class="container-fluid d-flex  flex-wrap debug2">
+          <div id="main-content" class="container-fluid d-flex  flex-wrap ">
 
-            <div class="col-12 col-lg-8 mt-2 debug2">
-                        <!-- ------feautered----- -->
-              <div class="row card m-0 p-0">
+            <div class="col-12 col-lg-8 mt-2 p-1 ">
+                        <!-- ------prossime classi----- -->
+              <div class="row card m-0 ">
 
                   <div class="card-header ">
-                    <h2>Featured</h2>
+                    <h2>Prossime classi</h2>
                   </div>
 
                   <div class="card-body">
                     <table class="table">
                       <thead>
                         <tr>
-                          <th scope="col">#</th>
-                          <th scope="col">First</th>
-                          <th scope="col">Last</th>
-                          <th scope="col">Handle</th>
+                          <th scope="col" class="col-5" >nome</th>
+                          <th scope="col">data inizio</th>
+                          <th scope="col">roi</th>
+                          <th scope="col">stato</th>
+                          <th scope="col">azioni</th>
+
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <th scope="row">1</th>
-                          <td>Mark</td>
-                          <td>Otto</td>
-                          <td>@mdo</td>
+                          <th scope="row" class="">classe 75</th>
+                          <td >15 feb 2021</td>
+                          <td>20%</td>
+                          <td><span class="bg-success py-1 px-2 rounded-4 text-white f_s">done</span></td>
+                          <td>ic ic</td>
+
                         </tr>
                         <tr>
-                          <th scope="row">2</th>
-                          <td>Jacob</td>
-                          <td>Thornton</td>
-                          <td>@fat</td>
+                          <th scope="row">classe 76</th>
+                          <td>20 febbraio 2021</td>
+                          <td>20%</td>
+                          <td><span class="bg-warning py-1 px-2 rounded-4 text-white f_s">process</span></td>
+                          <td>ic ic</td>
+
                         </tr>
                         <tr>
-                          <th scope="row">3</th>
-                          <td colspan="2">Larry the Bird</td>
-                          <td>@twitter</td>
+                          <th scope="row">classe 77</th>
+                          <td>29 febbraio 2021</td>
+                          <td>20%</td>
+                          <td><span class="bg-danger py-1 px-2 rounded-4 text-white f_s">failed</span></td>
+                          <td>ic ic</td>
+
                         </tr>
                       </tbody>
                     </table>
@@ -201,7 +210,7 @@
               
             </div>
             
-            <div class="col  mt-2 debug2">
+            <div class="col  mt-2 p-1 ">
                         <!-- ------to do----- -->
               <div class="row row card m-0 p-0">
                 
@@ -209,43 +218,45 @@
                   <h2>To do</h2>
                 </div>
 
-                <div class="card-body">
-                  
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault">
-                      da incorniciare
-                    </label>
+                <div class="card-body p-3">
+                  <div class="border rounded-2 ">
+                    <div class="form-check border-bottom p_s ">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                        kick off 
+                      </label>
+                    </div>
+                    <div class="form-check border-bottom p_s">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                        lezione su bootstrap
+                      </label>
+                    </div>
+                    <div class="form-check  p_s">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                      <label class="form-check-label" for="flexCheckChecked">
+                        controllare username
+                      </label>
+                    </div>
                   </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault">
-                      Default checkbox
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                    <label class="form-check-label" for="flexCheckChecked">
-                      Checked checkbox
-                    </label>
-                  </div>
+
 
                 </div>
 
 
               </div>
                         <!-- ------utenti attivi----- -->
-              <div class="row row card m-0 p-0">
+              <div class="row row card m-0 mt-2 p-0">
 
-                <div class="card-body p-0">
+                <div class="card-body p-3 ">
 
-                    <img class="w-100 border-4 border-dark" src="img/stats.jpeg" alt="">
-                    <h4>utenti attivi</h4>
-                    <span>lista utenti attivi in piattaforma l ultimo mese</span>
-                    <div class="border-bottom m-0 p-0"><span>gennaio 1500</span></div>
-                    <div class="border-bottom m-0 p-0"><span>gennaio 1500</span></div>
-                    <div class="border-bottom m-0 p-0"><span>gennaio 1500</span></div>
-                    <div class="border-bottom m-0 p-0"><a href="#">visualizza report completo</a></div>
+                    <img class="w-100 border border-bottom-0 " src="img/stats.jpeg" alt="">
+                    <h4 class="border border-bottom-0 border-top-0 px-2 m-0 ">utenti attivi</h4>
+                    <span class="border border-top-0 d-block p-2 ">lista utenti attivi in piattaforma l ultimo mese</span>
+                    <div class="border border-top-0 px-2 "><span>gennaio 1500</span></div>
+                    <div class="border border-top-0 px-2"><span>febbraio 1500</span></div>
+                    <div class="border border-top-0 px-2"><span>marzo 1500</span></div>
+                    <div class="border border-top-0 px-2 py-4"><a href="#">visualizza report completo</a></div>
                   </div>
 
 

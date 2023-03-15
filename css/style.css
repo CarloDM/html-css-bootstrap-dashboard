@@ -23,6 +23,10 @@ body{
   font-size: 0.9rem;
 }
 
+.p_s{
+  padding-left: 2rem;
+}
+
 a {
   text-decoration: none;
 }
