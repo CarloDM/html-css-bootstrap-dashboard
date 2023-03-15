@@ -16,12 +16,82 @@
 <!-- ------------offcanvas----------- -->
 
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
-      <div class="offcanvas-body">
-        ...
+
+      <div class="offcanvas-body ">
+        <form action="">
+
+          <div class="row g-3 my-1">
+            <div class="col-sm-7">
+              <label class="mb-2 fw-bold" for="Nome">nome</label>
+              <input type="text" class="form-control" placeholder="Nome" aria-label="Nome">
+            </div>
+            <div class="col-sm">
+              <label class="mb-2 fw-bold" for="Cognome">Cognome</label>
+              <input type="text" class="form-control" placeholder="Cognome" aria-label="Cognome">
+            </div>
+          </div>
+
+          <div class="row g-3 my-1">
+            <div class="col-sm-7">
+              <label class="mb-2 fw-bold" for="autoSizingInputGroup">email</label>
+              <div class="input-group">
+                <div class="input-group-text">@</div>
+                <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="email">
+              </div>
+            </div>
+          
+            <div class="col-sm">
+              <label class="mb-2 fw-bold" for="password">password</label>
+              <input type="password" class="form-control" placeholder="password" aria-label="password">
+            </div>
+          </div>
+
+          <div class="row g-3 my-1">
+            <div class="col">
+              <label class="mb-2 fw-bold" for="Indirizzo">Indirizzo</label>
+              <input type="text" class="form-control" placeholder="indirizzo" aria-label="address">
+            </div>
+          </div>
+          
+          <div class="row g-3 my-1">
+            <div class="col-sm-7">
+              <label class="mb-2 fw-bold" for="Città">Città</label>
+              <input type="text" class="form-control" placeholder="Città" aria-label="City">
+            </div>
+            <div class="col-sm">
+              <label class="mb-2 fw-bold" for="Stato">Stato</label>
+              <input type="text" class="form-control" placeholder="Stato" aria-label="State">
+            </div>
+            <div class="col-sm">
+              <label class="mb-2 fw-bold" for="zip">cap</label>
+              <input type="text" class="form-control" placeholder="cap" aria-label="Zip">
+            </div>
+          </div>
+          
+          <div class="row g-3 my-1">
+            <label class="mb-2 fw-bold" for="inputGroupFile01">Foto</label>
+            <div class="input-group m-0">
+              <input type="file" class="form-control" id="inputGroupFile01">
+            </div>
+          </div>
+
+          <div class="mt-5">
+            <input type="checkbox" aria-label="check">
+            <label for="check">seleziona per continuare</label>
+          </div>
+
+          <div class="my-3">
+            <input type="submit" class="bg-primary rounded-2 p-2 border-0 text-white">
+            <input type="reset" class="bg-warning rounded-2 p-2 border-0">
+          </div>
+
+
+        </form>
       </div>
     </div>
 
